@@ -1,17 +1,29 @@
-.App {
-  text-align: center;
+.app {
+  background-color: black;
+}
+/* Width */
+::-webkit-scrollbar{
+  margin-top: 10px;
+  width: 8px;
+  height: 7px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
   }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
 }
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+/* 
 
 .App-header {
   min-height: 100vh;
@@ -36,4 +48,4 @@
   100% {
     transform: translateY(0px);
   }
-}
+} */
