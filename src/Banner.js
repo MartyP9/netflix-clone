@@ -1,5 +1,5 @@
 import axios from './axios';
-import react, { useEffect,useState } from 'react';
+import React, { useEffect,useState } from 'react';
 import './assets/css/Banner.css'
 import requests from './Request';
 
