@@ -27,7 +27,7 @@ const Row = ({title, fetchUrl, isLargeRow=false}) => {
                         src={`${base_URL}${isLargeRow ? movie.poster_path : movie.backdrop_path
                         }`} alt={movie.name}
                         className={`row-poster ${isLargeRow && 'row-posterLarge'}`}
-                        title={movie.name}
+                        title={movie.title || movie.name || movie.original_name}
                         />
                         </>
                     )
