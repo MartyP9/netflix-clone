@@ -5,6 +5,7 @@ html {
   .row {
     color: white;
     margin-left: 20px;
+    padding-top: 5px;
   }
   
   @media screen and (max-width: 768px) {
@@ -39,20 +40,4 @@ html {
   .row-posterLarge:hover {
     transform: scale(1.09);
     opacity: 1;
-  }
-  img:hover {
-    color: red;
-    position: relative;
-  }
-  img[title]:hover:after {
-    content: attr(data-title);
-    padding: 4px 8px;
-    color: #333;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    white-space: nowrap;
-    z-index: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 4px #222;
   }

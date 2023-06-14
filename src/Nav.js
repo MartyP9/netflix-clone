@@ -17,7 +17,7 @@ useEffect(()=>{
     <div className={`nav ${show && 'nav-black'}`}>
         <div className="nav-content">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Logonetflix.png/1200px-Logonetflix.png" alt="netflix logo" className="nav-logo" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="avatar" className="nav-avatar" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="avatar" title='Log in' className="nav-avatar" />
         </div>
     </div>
   )
